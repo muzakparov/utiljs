@@ -1,19 +1,4 @@
 _getCrumbs(param) {
-    //!!!DONT RM BELOW!!!
-    // "/:sport_name/:sport_id/competitions/:comp_name?/:event_part(.*/events)?/:event_name?/:market_part(.*/markets)?/:market_name?/:sel_part(.*/selections)?/:rest*"
-    // let linkParams = [
-    // 	'sport_name',
-    // 	'sport_id',
-    // 	'comp_name',
-    // 	'event_part',
-    // 	'event_name',
-    // 	'market_part',
-    // 	'market_name',
-    // 	'sel_part',
-
-    // 	'rest'
-    // ]
-
     const rootRoutePaths = [
         {
             path: "sport_name", //string route
