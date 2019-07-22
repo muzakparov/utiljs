@@ -186,6 +186,7 @@ _getCrumbs(param) {
             link: resLink
         }
     })
-
+    
+    //return final crumbs as an array
     return crumbs
 }
