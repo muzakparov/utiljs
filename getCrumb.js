@@ -187,6 +187,5 @@ _getCrumbs(param) {
         }
     })
     
-    //return final crumbs as an array
     return crumbs
 }
